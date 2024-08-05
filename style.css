@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+}
+
+@font-face {
+  font-family: main;
+  src: url(./2842e150d6666a9f53bb.woff);
+}
+
+@font-face {
+  font-family: italic;
+  src: url(./c5ce8b90fbb611d83f6f.woff);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  color: lig;
+}
+
+.preloader {
+  pointer-events: none;
+}
+
+.preloader h1,
+.preloader h3 {
+  font-family: italic;
+  font-weight: 600;
+}
+
+.nav-left > h1 {
+  font-family: italic;
+}
+
+.nav-left > h3 {
+  font-family: main;
+}
+
+.nav-right > h3 {
+  font-family: main;
+}
+.nav-cont > h3 {
+  font-family: main;
+}
+
+.page1-center-left > h1 {
+  font-family: italic;
+}
+
+.page1-end > h1 {
+  font-family: italic;
+}
+
+span {
+  display: inline-block;
+}
+
+#span-space {
+  margin-left: 3px;
+}
+
+.page2 > h1 {
+  font-family: italic;
+  font-size: 4vw;
+}
+
+.page3-box > h1 {
+  font-family: italic;
+}
+.page3-box > h3 {
+  font-family: main;
+}
+
+.page4 {
+  position: relative;
+  background-image: url("https://changers.studio/assets/2e74b4d5e1b4aa6ae7de.png");
+  background-position: center top;
+  background-size: cover;
+}
+
+.page4-box > h1 {
+  font-family: main;
+}
+
+.page4-box > h1 > span {
+  font-family: italic;
+}
+
+.page4-box-elem-heading > h1 {
+  font-family: italic;
+}
+
+.page4-box-elem-heading > h1 > span {
+  font-family: main;
+}
+
+.page4-box-elem-heading-left > span {
+  font-family: main;
+}
+
+.page4-box-elem-heading-left > h1 {
+  font-family: italic;
+  font-size: 3vw;
+}
+
+.page4-inner-left-elem > h1 {
+  font-family: italic;
+}
+
+.page4-inner-left-elem > h1 > span {
+  font-family: main;
+}
+
+.page4-inner-left-elem h3,
+.page4-inner-left-elem p {
+  font-family: main;
+}
+
+.page4-inner-right > h1 {
+  font-family: italic;
+}
+
+.page4-inner-right > h1 > span {
+  font-family: main;
+}
+
+.page5 {
+  position: relative;
+  background-image: url("https://changers.studio/assets/9140745187e588464432.svg");
+  background-size: cover;
+  background-position: center;
+  background-color: #ffffff;
+}
+
+.page5-pin {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+}
+
+.page5-pin > h1 {
+  font-family: italic;
+}
+
+.page6-heading > h1 {
+  font-family: main;
+}
+
+.page6-heading > h1 > span {
+  font-family: italic;
+}
+
+.page6-heading > span {
+  font-family: italic;
+}
+
+.page6-box1-title > h1 {
+  font-family: italic;
+}
+
+.italic {
+  font-family: italic;
+}
+
+.page7-text {
+  -webkit-text-stroke: 2px #000;
+}
+
+.page7-part1-img {
+  border: 1px solid #ffffff4b;
+}
+
+.page7-part2-img {
+  border: 1px solid #ffffff4b;
+}
+
+.page7-part3-img {
+  border: 1px solid #ffffff4b;
+}
+
+.page7-part4-img {
+  border: 1px solid #ffffff4b;
+}
+
+.page7-part5-img {
+  border: 1px solid #ffffff4b;
+}
+
+.page7-part6-img {
+  border: 1px solid #ffffff4b;
+}
+
+.page7-part7-img {
+  border: 1px solid #ffffff4b;
+}
+
+.page7-part8-img {
+  border: 1px solid #ffffff4b;
+}
+
+.page7-part9-img {
+  border: 1px solid #ffffff4b;
+}
+
+.page7-part10-img {
+  border: 1px solid #ffffff4b;
+}
+
+.page7-part11-img {
+  border: 1px solid #ffffff4b;
+}
+
+.main-font {
+  font-family: main;
+}
+
+.page8-btn > button {
+  border: 1px solid #00000039;
+  padding: 0.3vw 0.8vw;
+  color: #00000090;
+  border-radius: 1vw;
+  font-weight: 600;
+}
+
+.read-btn {
+  cursor: pointer;
+}
+
+.page14-right-circle {
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.232);
+}
+
+.page14-right-circle {
+  position: relative;
+  overflow: hidden;
+}
+
+.page14-right-circle::after {
+  content: attr(name);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border-radius: 50%;
+  color: #000;
+  transition: all ease 1s;
+  display: flex;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.page14-right-circle:hover::after {
+  top: 0%;
+  opacity: 1;
+}
+
+.cursor {
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
